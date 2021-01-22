@@ -36,8 +36,8 @@ header nav ul li a {
 
 .hero {
     background-image: url('IMG_4751.jpg');
-    height: 400px;
-    width: 400px;
+    height: 375px;
+    width: 401px;
     background-size: cover;
     background-position: center;
     position: relative;
@@ -48,6 +48,7 @@ header nav ul li a {
     height: 373px;
     width: 373px;
     position: relative;
+    font-weight: 200;
 }
 .form-input {
     border: 7px solid #202000;
@@ -57,6 +58,7 @@ header nav ul li a {
     color: #006666;
     width: 100%;
     margin-bottom: 15px;
+    font-weight: 150;
 }
 .hero-form label {
     margin: 0;
@@ -67,11 +69,25 @@ header nav ul li a {
     border: 3px;
     border-color: #202000;
     padding: 7px 13px;
-    font-size: 15px;
+    font-size: 30px;
+    font-weight: 100;
 }
+.button {
+    background-color: #2d6275;
+    border: 8px;
+    border-color: #ac8613;
+    color: #202000
+    text-align: center;
+    text-decoration: ellipse;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 150;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
 
 .about {
-    line-height: 1.9;
+    line-height: 1.5;
     color: #5f4367;
     background-color: #6b9294;
     width: 77%;
@@ -128,6 +144,7 @@ header nav ul li a {
 {
     display: block;
     background-color: #ac8613;
+    height: fit-content;
 
 }
 .third-border
@@ -145,7 +162,7 @@ header nav ul li a {
 {
     text-align: left;
     padding-left: 30px;
-    padding-bottom: 17px;
+    padding-bottom: 8px;
     color:#5f4367;
     font-size: 27px;
 }
