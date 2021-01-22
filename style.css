@@ -55,20 +55,30 @@ section{
     padding: 61px;
     color:#6b9294;
 }
+.hero {
+    background-image: url('IMG_4751.jpg');
+    height: 350px;
+    width: 350px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
 .about {
     line-height: 1.9;
     color: #5f4367;
     width: 77%;
     font-size: 21px;
-    margn: 0 float;
+    margin: auto;
 }
 .about p {
     line-height: 1.9;
     color: #5f4367;
-    width: 79%;
+    width: 73%;
     font-size: 21px;
-    margin: 0 auto;
+    margin: auto;
+    padding: 21px;
 }
+
 .work {
     text-align: center;
     background: #202000;
