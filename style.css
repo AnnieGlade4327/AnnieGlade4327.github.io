@@ -126,6 +126,7 @@ header nav ul li a {
     padding-right: 43px;
     color: #408080;
 }
+
 .work {
     padding-left: 23px;
     padding-right: 77px;
@@ -139,16 +140,21 @@ header nav ul li a {
     font-size: 27px;
     font-weight: 100;
 }
+.at-work {
+   float:left;
+   background-color: #006666;
+}
+.at-work-center {
+    float: right;
+}
 .contact
 {
     display: block;
     background-color: #ac8613;
-    height: fit-content;
-
 }
 .third-border
 {
-    display: block
+    display: block;
     padding-left: 58px;
     color: #3c1338;
 }
@@ -174,7 +180,7 @@ footer {
 }
 footer h4 
 {
-    display: inline;
+    display: block;
     color:#ac8613;
     font-size; 30px;
     margin: 0;
