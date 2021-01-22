@@ -52,9 +52,20 @@ footer div {
     color:#6b9294;
 }
 section{
-    padding: 60px;
+    padding: 61px;
+    color:#6b9294;
 }
-
+.about {
+    line-height: 1.9;
+    color: #5f4367;
+    width: 77%;
+    font-size: 21px;
+    margn: 0 float;
+}
+.work {
+    text-align: center;
+    background: #202000;
+}
 }
 #main-bio {
   width: 70%;
