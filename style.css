@@ -36,9 +36,24 @@ header nav ul li a {
 footer {
     background: #202000;
     width: 100%;
-    padding: 40px; 35px;
+    padding: 40px 35px;
 }
-
+footer h4 {
+    display: inline;
+    color:#ac8613;
+    font-size; 30px;
+    margin: 0;
+}
+footer div {
+    float: right;
+    line-height: 1.7;
+    text-align:right;
+}footer a{
+    color:#6b9294;
+}
+section{
+    padding: 60px;
+}
 
 }
 #main-bio {
