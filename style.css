@@ -5,7 +5,7 @@
 }
 
 body {
-    color: #6b9294;
+    font-color: #6b9294;
     font-family: Rockwell;
 }
 /* header styling */
@@ -25,75 +25,90 @@ header a {
     color: #6b9294
 }
 header nav {
-float: right;
-margin: 7px 4;
+    float: right;
+    margin: 7px 4;
 }
 header nav ul li a {
     margin: 3 28px;
     font-weight: inherit;
     font-size: 17px;
 }
-footer {
-    background: #202000;
-    width: 100%;
-    padding: 40px 35px;
-}
-footer h4 {
-    display: inline;
-    color:#ac8613;
-    font-size; 30px;
-    margin: 0;
-}
-footer div {
-    float: right;
-    line-height: 1.7;
-    text-align:right;
-}footer a{
-    color:#6b9294;
-}
-section{
-    padding: 61px;
-    color:#6b9294;
-}
+
 .hero {
     background-image: url('IMG_4751.jpg');
-    height: 350px;
-    width: 350px;
+    height: 400px;
+    width: 400px;
     background-size: cover;
     background-position: center;
     position: relative;
 }
+.hero-form {
+    border: 4px solid #202000;
+    background-color:#6b9294;
+    height: 373px;
+    width: 373px;
+    position: relative;
+}
+.form-input {
+    border: 7px solid #202000;
+    display: block;
+    padding: 9px 9px;
+    font-size: 15px;
+    color: #006666;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0;
+}
+.hero-form button {
+    color:#ac8613;
+    background-color:#6b9294;
+    border: 3px;
+    border-color: #202000;
+    padding: 7px 13px;
+    font-size: 15px;
+}
+
 .about {
     line-height: 1.9;
     color: #5f4367;
+    background-color: #6b9294;
     width: 77%;
     font-size: 21px;
     margin: auto;
 }
 .about p {
-    line-height: 1.9;
     color: #5f4367;
-    width: 73%;
-    font-size: 21px;
-    margin: auto;
-    padding: 21px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 27px 3 2 61px;
 }
+.my-bio {
+    width: 435 px;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin: 27px 3 3 61px;
+    color: #5f4367
+}
+
 
 .work {
-    text-align: center;
+    text-align: right;
     background: #202000;
 }
+footer {
+    background: #202000;
+    width: 100%;
+    padding: 40px 35px;
+    line-height: 1.7;
+    text-align: center;
 }
-#main-bio {
-  width: 70%;
-}
-
-#contact-info {
-  width: 30%;
-}
-
-#bio-image {
-  width: 200px;
-  height: 200px;
-  margin-right: 20px;
+footer h4 
+{
+    display: inline;
+    color:#ac8613;
+    font-size; 30px;
+    margin: 0;
 }
