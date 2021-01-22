@@ -84,7 +84,8 @@ header nav ul li a {
     vertical-align: middle;
     margin: 27px 3 2 61px;
 }
-.my-bio {
+.about div {
+
     width: 435 px;
     display: inline-block;
     vertical-align: top;
@@ -93,6 +94,19 @@ header nav ul li a {
     color: #5f4367
 }
 
+.center {
+    display: block;
+    margin-left:25px;
+    margin-right: 75px;
+}
+#selfie
+{
+    border-radius: 8px;
+    padding-left: 13px;
+}
+.primary-border {
+    padding-left: 33px;
+}
 
 .work {
     text-align: right;
