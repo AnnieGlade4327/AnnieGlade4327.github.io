@@ -126,12 +126,17 @@ header nav ul li a {
     padding-right: 43px;
     color: #408080;
 }
+.third-border {
+    padding-top: 60px;
+}
 
 .work {
     padding-left: 23px;
     padding-right: 77px;
     padding-top: 17px;
     padding-left: 7px;
+    font-size: 35px;
+    font-weight: 200;
 }
 
 .work h2 {
@@ -149,23 +154,18 @@ header nav ul li a {
 }
 .contact
 {
-    display: block;
     background-color: #ac8613;
-}
-.third-border
-{
-    display: block;
-    padding-left: 58px;
-    color: #3c1338;
+    width: 75%;
+    padding: 20px;
 }
 .contact h2 {
-    text-align: center;
+    text-align: end;
     font-size: 35px;
     color:#5f4367;
 }
 .contact h3
 {
-    text-align: left;
+    text-align: center;
     padding-left: 30px;
     padding-bottom: 8px;
     color:#5f4367;
