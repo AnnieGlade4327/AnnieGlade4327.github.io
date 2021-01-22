@@ -107,10 +107,22 @@ header nav ul li a {
 .primary-border {
     padding-left: 33px;
 }
-
+.secondary-border {
+    padding-right: 43px;
+    color: #408080;
+}
 .work {
+    padding-left: 23px;
+    padding-right: 77px;
+    padding-top: 17px;
+    padding-left: 7px;
+}
+
+.work h2 {
     text-align: right;
     background: #202000;
+    font-size: 27px;
+    font-weight: 100;
 }
 footer {
     background: #202000;
