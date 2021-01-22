@@ -1,3 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #6b9294;
+    font-family: Rockwell;
+}
+/* header styling */
+header {
+    padding: 23px 37px;
+    background-color: #202000;
+}
+header h1 {
+    font-size: 39px;
+    font-weight: lighter;
+    color: #6b9294;
+    margin-top: 0;
+    display: inline-flex;
+}
+header a {
+    text-decoration: double;
+    color: #6b9294
+}
+header nav {
+float: right;
+margin: 7px 4;
+}
+header nav ul li a {
+    margin: 3 28px;
+    font-weight: inherit;
+    font-size: 17px;
+}
+footer {
+    background: #202000;
+    width: 100%;
+    padding: 40px; 35px;
+}
+
+
+}
 #main-bio {
   width: 70%;
 }
