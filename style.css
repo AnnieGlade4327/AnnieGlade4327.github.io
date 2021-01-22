@@ -62,6 +62,13 @@ section{
     font-size: 21px;
     margn: 0 float;
 }
+.about p {
+    line-height: 1.9;
+    color: #5f4367;
+    width: 79%;
+    font-size: 21px;
+    margin: 0 auto;
+}
 .work {
     text-align: center;
     background: #202000;
