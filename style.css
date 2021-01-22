@@ -124,6 +124,31 @@ header nav ul li a {
     font-size: 27px;
     font-weight: 100;
 }
+.contact
+{
+    display: block;
+    background-color: #ac8613;
+
+}
+.third-border
+{
+    display: block
+    padding-left: 58px;
+    color: #3c1338;
+}
+.contact h2 {
+    text-align: center;
+    font-size: 35px;
+    color:#5f4367;
+}
+.contact h3
+{
+    text-align: left;
+    padding-left: 30px;
+    padding-bottom: 17px;
+    color:#5f4367;
+    font-size: 27px;
+}
 footer {
     background: #202000;
     width: 100%;
