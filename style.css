@@ -53,17 +53,17 @@ header nav ul li a {
     height: 373px;
     width: 373px;
     position: relative;
-    font-weight: 200;
+    font-weight: 100;
 }
 .form-input {
     border: 7px solid #202000;
     display: block;
-    padding: 9px 9px;
-    font-size: 15px;
+    padding: 11px 11px;
+    font-size: 13px;
     color: #006666;
     width: 100%;
-    margin-bottom: 15px;
-    font-weight: 150;
+    margin-bottom: 7px;
+    font-weight: 200;
 }
 .hero-form label {
     margin: 0;
@@ -71,11 +71,11 @@ header nav ul li a {
 .hero-form button {
     color:#ac8613;
     background-color:#6b9294;
-    border: 3px;
+    border: 1.5px;
     border-color: #202000;
     padding: 7px 13px;
-    font-size: 30px;
-    font-weight: 100;
+    font-size: 23px;
+    font-weight: 170;
 }
 .button {
     background-color: #2d6275;
@@ -89,6 +89,7 @@ header nav ul li a {
     font-weight: 150;
     padding-left: 4px;
     padding-right: 4px;
+    padding-bottom: 3px;
   }
 
 .about {
@@ -206,3 +207,4 @@ ul {
     color: #6b9294;
     text-align: horizontal;
   }
+
