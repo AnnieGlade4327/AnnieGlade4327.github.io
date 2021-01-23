@@ -161,6 +161,8 @@ header nav ul li a {
     width: 40%;
     padding: 20px;
     padding-top: 7px;
+    font-size: 37px;
+    font-weight: 200;
 }
 .contact h2 {   
     text-align: end;
@@ -174,6 +176,7 @@ header nav ul li a {
     padding-bottom: 8px;
     color:#5f4367;
     font-size: 27px;
+    font-weight: 100;
 }
 footer {
     background: #202000;
