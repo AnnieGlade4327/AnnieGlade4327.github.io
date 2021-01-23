@@ -24,6 +24,11 @@ header a {
     text-decoration: double;
     color: #6b9294
 }
+header p {
+    text-align: center;
+    font-size: 21px;
+    font-weight: 1230;
+}
 header nav {
     float: right;
     margin: 7px 4;
