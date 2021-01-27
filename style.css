@@ -18,7 +18,7 @@ header h1 {
     font-weight: lighter;
     color: #6b9294;
     margin-top: 0;
-    display: inline-flex;
+    display: inline;
 }
 header a {
     text-decoration: double;
@@ -30,13 +30,17 @@ header p {
     font-weight: 1230;
 }
 header nav {
-    float: right;
     margin: 7px 4;
+    flex-wrap: wrap;
+    flex-direction: row;
+    display: inline;
 }
 header nav ul li a {
     margin: 3 28px;
     font-weight: inherit;
     font-size: 17px;
+    display: inline;
+    justify-content: center;
 }
 
 .hero {
@@ -45,7 +49,6 @@ header nav ul li a {
     width: 401px;
     background-size: cover;
     background-position: center;
-    position: relative;
 }
 .hero-form {
     border: 4px solid #202000;
@@ -53,7 +56,7 @@ header nav ul li a {
     height: 373px;
     width: 373px;
     position: relative;
-    font-weight: 100;
+    font-weight: 150;
 }
 .form-input {
     border: 7px solid #202000;
@@ -131,6 +134,7 @@ header nav ul li a {
 .secondary-border {
     padding-right: 43px;
     color: #408080;
+    align-content: center;
 }
 .work {
     padding-left: 23px;
@@ -141,6 +145,9 @@ header nav ul li a {
     padding-right: 11px;
     font-size: 45px;
     font-weight: 200;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
 }
 
 .work h2 {
@@ -154,7 +161,9 @@ header nav ul li a {
     border-width: 15px;
     border-color: #ac8613;
     padding-top: 13px;
-   float:left;
+    align-content: center;
+    flex-wrap: wrap;
+    flex-direction: row;
    background-color: #006666;
 }
 .at-work-center {
