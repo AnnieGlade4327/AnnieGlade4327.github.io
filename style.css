@@ -1,7 +1,8 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: content-box;
+    font-color: #6b9294;
 }
 
 body {
@@ -17,8 +18,7 @@ header h1 {
     font-size: 39px;
     font-weight: lighter;
     color: #6b9294;
-    margin-top: 0;
-    display: inline;
+   
 }
 header a {
     text-decoration: double;
@@ -32,53 +32,67 @@ header p {
 header nav {
     margin: 7px 4;
     flex-wrap: wrap;
-    flex-direction: row;
-    display: inline;
 }
 header nav ul li a {
     margin: 3 28px;
-    font-weight: inherit;
     font-size: 17px;
-    display: inline;
-    justify-content: center;
+}
+h2 {
+    font-color:#6b9294;
+}
+.primary-title {
+    font-color:#6b9294;
+}
+.my-bio {
+    background-color: antiquewhite;
+}
+#selfie
+{
+    border-radius: 8px;
+    padding-left: 13px;
 }
 
 .hero {
+    background-color:#6b9294;
+    font-weight: 160;
+    box-sizing: border-box;
+}
+.hero.form {
     background-image: url('IMG_4751.jpg');
-    height: 375px;
-    width: 401px;
+    height: 405px;
+    width: 447px;
     background-size: cover;
     background-position: center;
+    padding-left: 77;
+    border-style: solid;
+    border-color: #202000;
 }
-.hero-form {
-    border: 4px solid #202000;
-    background-color:#6b9294;
-    height: 373px;
-    width: 373px;
-    position: relative;
-    font-weight: 150;
+h3 { font-size: 21px;
+    font-weight: 160;
 }
 .form-input {
     border: 7px solid #202000;
-    display: block;
-    padding: 11px 11px;
+    padding: 13px 13px 13px 13px;
     font-size: 13px;
     color: #006666;
-    width: 100%;
+    width: 89%;
     margin-bottom: 7px;
-    font-weight: 200;
-}
-.hero-form label {
-    margin: 0;
+    margin-left: 3px;
+    font-weight: 217;
+    justify-content: flex-start;
 }
 .hero-form button {
     color:#ac8613;
     background-color:#6b9294;
     border: 1.5px;
+    border-spacing: 15px;
     border-color: #202000;
-    padding: 7px 13px;
+    padding: 15px 15px;
     font-size: 23px;
     font-weight: 170;
+}
+#contact-info.contact {
+    background-color: #6b9294;
 }
 .button {
     background-color: #2d6275;
@@ -87,7 +101,6 @@ header nav ul li a {
     color: #202000
     text-align: center;
     text-decoration: ellipse;
-    display: inline-block;
     font-size: 18px;
     font-weight: 150;
     padding-left: 4px;
@@ -95,104 +108,6 @@ header nav ul li a {
     padding-bottom: 3px;
   }
 
-.about {
-    line-height: 1.5;
-    color: #5f4367;
-    background-color: #6b9294;
-    width: 77%;
-    font-size: 21px;
-    margin: auto;
-}
-.about p {
-    color: #5f4367;
-    display: inline-block;
-    vertical-align: middle;
-    margin: 27px 3 2 61px;
-}
-.about div {
-
-    width: 435 px;
-    display: inline-block;
-    vertical-align: top;
-    text-align: left;
-    margin: 27px 3 3 61px;
-    color: #5f4367
-}
-.center {
-    display: block;
-    margin-left:25px;
-    margin-right: 75px;
-}
-#selfie
-{
-    border-radius: 8px;
-    padding-left: 13px;
-}
-.primary-border {
-    padding-left: 33px;
-}
-.secondary-border {
-    padding-right: 43px;
-    color: #408080;
-    align-content: center;
-}
-.work {
-    padding-left: 23px;
-    padding-right: 77px;
-    padding-top: 17px;
-    padding-bottom: 23px;
-    padding-left: 7px;
-    padding-right: 11px;
-    font-size: 45px;
-    font-weight: 200;
-    flex-wrap: wrap;
-    flex-direction: row;
-    align-content: center;
-}
-
-.work h2 {
-    text-align: right;
-    background: #202000;
-    font-size: 27px;
-    font-weight: 100;
-}
-.at-work {
-    border-style: solid;
-    border-width: 15px;
-    border-color: #ac8613;
-    padding-top: 13px;
-    align-content: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-   background-color: #006666;
-}
-.at-work-center {
-    float: right;
-}
-.contact
-{
-    background-color: #5f4367;
-    height: 37%;
-    width: 40%;
-    padding: 20px;
-    padding-top: 7px;
-    font-size: 37px;
-    font-weight: 200;
-}
-.contact h2 {   
-    text-align: end;
-    font-size: 35px;
-    color: #006666;
-}
-.contact h3
-{
-    text-align: center;
-    padding-left: 30px;
-    padding-bottom: 8px;
-    color:#5f4367;
-    font-size: 27px;
-    font-weight: 100;
-}
 footer {
     background: #202000;
     width: 100%;
@@ -211,9 +126,7 @@ ul {
     position: bottom;
     top: 0;
     width: 100%;
-    glyph-orientation-horizontal: inherit;
     font-size: 40px;
     color: #6b9294;
     text-align: horizontal;
   }
-
