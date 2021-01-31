@@ -44,7 +44,7 @@ header nav ul ul a {
     padding-right: 7px;
 }
 .my-bio {
-    background-color: antiquewhite;
+    background-color:rgb(241, 177, 93);
 }
 #selfie
 {
@@ -69,9 +69,15 @@ header nav ul ul a {
     border-style: solid;
     border-color: #202000;
 }
-h3 {
+.social-media {
+    background-color: #006666;
     font-size: 21px;
     font-weight: 160;
+}
+#social-media {
+  float: right;
+  margin-left: 67;
+  justify-content: flex-end;
 }
 .form-input {
     border: 7px solid #202000;
