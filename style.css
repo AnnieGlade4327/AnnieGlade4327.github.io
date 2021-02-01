@@ -12,28 +12,38 @@ body {
 
 header {
     background-color: #202000;
+    padding-right: 7px;
 }
+header h1 {
+    color: #6b9294;
+    font-size: 35px;
+    font-weight: 200;
+}
+nav ul a {
+   float: right;
+   font-size: 25px;
+   color:#6b9294;
+   justify-content: space-between;
+   padding-right: 5px;
+   display: inline-flex;
+}
+
 .my-bio p {
     float: right;
-    padding-top: 107px;
-    padding-right: 317px;
+    padding-top: 157px;
+    padding-right: 477px;
     font-weight: 160;
     font-size: 17px;
 }
-
 .primary-title {
-    font-color:#6b9294;
     float: right;
     margin-left: 55px;
-    padding-right: 17px;
+    padding-right: 97px;
     font-size: 25px;
 }
 .my-bio {
     background-color:rgb(241, 177, 93);
-}
-.my-bio.p {
-    float: right;
-
+    padding-left: 200px;
 }
 #selfie
 {
@@ -42,7 +52,6 @@ header {
     border-width: 8px;
     border-color: #006666;
 }
-
 .hero {
     background-color:#6b9294;
     font-weight: 160;
@@ -63,13 +72,8 @@ header {
     font-size: 21px;
     font-weight: 160;
 }
-#social-media {
-  float: right;
-  margin-left: 67;
-  justify-content: flex-end;
-}
 .form-input {
-    border: 7px solid #202000;
+    border: 5px solid #202000;
     padding: 13px 13px 13px 13px;
     font-size: 13px;
     color: #006666;
@@ -80,11 +84,9 @@ header {
     justify-content: flex-start;
 }
 .hero-form button {
-    color:#ac8613;
     background-color:#6b9294;
     border: 1.5px;
     border-spacing: 15px;
-    border-color: #202000;
     padding: 15px 15px;
     font-size: 23px;
     font-weight: 170;
@@ -121,6 +123,5 @@ ul {
     top: 0;
     width: 100%;
     font-size: 40px;
-    color: #6b9294;
     text-align: horizontal;
   }
