@@ -31,13 +31,11 @@ header p {
 }
 header nav {
     float: right;
-    margin-left: 71;
+    margin-left: 50;
     padding-right: 7px;
+    justify-content: space-around;
 }
-header nav ul ul a {
-    font-size: 13px;
-}
-.primary-title {
+h2.primary-title {
     font-color:#6b9294;
     float: right;
     margin-left: 75;
@@ -45,6 +43,10 @@ header nav ul ul a {
 }
 .my-bio {
     background-color:rgb(241, 177, 93);
+}
+.my-bio.p {
+    float: right;
+
 }
 #selfie
 {
