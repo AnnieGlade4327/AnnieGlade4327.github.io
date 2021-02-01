@@ -2,11 +2,12 @@
     margin: 0;
     padding: 0;
     box-sizing: content-box;
-    font-color: #6b9294;
+    font-color: #033a3d;
 }
 
 body {
     font-family: Rockwell;
+    background-color: #6b9294;
 }
 /* header styling */
 
@@ -18,14 +19,17 @@ header h1 {
     color: #6b9294;
     font-size: 35px;
     font-weight: 200;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 10px;
 }
 nav ul a {
    float: right;
    font-size: 25px;
    color:#6b9294;
    justify-content: space-between;
-   padding-right: 5px;
-   display: inline-flex;
+   padding-right: 60px;
+   display: inline;
 }
 
 .my-bio p {
@@ -56,6 +60,8 @@ nav ul a {
     background-color:#6b9294;
     font-weight: 160;
     box-sizing: border-box;
+    padding-left: 23px;
+    margin-left: 100px;
 }
 .hero.form {
     background-image: url('IMG_4751.jpg');
@@ -63,14 +69,32 @@ nav ul a {
     width: 447px;
     background-size: cover;
     background-position: center;
-    padding-left: 77;
     border-style: solid;
     border-color: #202000;
 }
 .social-media {
     background-color: #006666;
-    font-size: 21px;
-    font-weight: 160;
+    text-align: center;
+    font-size: 25px;
+    color: #202000;
+}
+.social-media h3 {
+    font-size: 41px;
+    font-weight: 260;
+    justify-content: center;
+    padding-left: 88px;
+    padding-right: 47px;
+    color: #202000;
+    text-align: right;
+}
+.social-media ul {
+    font-size: 31px;
+    font-weight: 230;
+    justify-content: center;
+    padding-left: 58px;
+    padding-right: 507px;
+    color: #202000;
+    text-align: right;
 }
 .form-input {
     border: 5px solid #202000;
@@ -118,10 +142,3 @@ footer h4
     font-size; 30px;
     margin: 0;
 }
-ul {
-    position: bottom;
-    top: 0;
-    width: 100%;
-    font-size: 40px;
-    text-align: horizontal;
-  }
