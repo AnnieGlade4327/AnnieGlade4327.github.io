@@ -35,7 +35,7 @@ nav ul a {
 .my-bio p {
     float: right;
     padding-top: 157px;
-    padding-right: 477px;
+    padding-right: 437px;
     font-weight: 160;
     font-size: 17px;
 }
@@ -86,6 +86,7 @@ nav ul a {
     padding-left: 23px;
     margin-left: 100px;
     padding-bottom: 50px;
+    font-weight: 300;
 }
 .hero form {
     background-image: url('IMG_4751.jpg');
@@ -96,6 +97,7 @@ nav ul a {
     border-style: solid;
     border-color: #202000;
     padding-top: 45px;
+    font-weight: 300;
 }
 .form-input {
     border: 5px solid #202000;
