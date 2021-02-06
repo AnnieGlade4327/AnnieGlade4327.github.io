@@ -8,34 +8,51 @@
 body {
     font-family: Rockwell;
     background-color: #6b9294;
+    margin: 0;
 }
 /* header styling */
 
 header {
-    background-color: #202000;
-    padding-right: 7px;
+ 
 }
 header h1 {
     color: #6b9294;
     font-size: 35px;
     font-weight: 200;
-    padding-top: 10px;
     margin-top: 10px;
     margin-left: 10px;
 }
-nav ul a {
-   float: right;
-   font-size: 25px;
-   color:#6b9294;
-   justify-content: space-between;
-   padding-right: 60px;
-   display: inline;
+#About-me {
+    align-content:flex-end;
+    padding-right: 30px;
 }
-
+#Work-portfolio {
+    padding-left: 900px;
+}
+#Contact-info {
+    float: left;
+}
+nav ul a {
+   font-size: 25px;
+   color:#6f8283;
+   padding-left: 200px;
+   background-color: #202000;
+   padding-right: 7px;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 11%;
+   position: fixed;
+   height: 100%;
+   overflow: auto;
+}
+.about-me {
+    width: 970px;
+}
 .my-bio p {
     float: right;
     padding-top: 157px;
-    padding-right: 437px;
+    padding-right: 50px;
     font-weight: 160;
     font-size: 17px;
 }
@@ -139,9 +156,18 @@ footer h4
     font-size; 30px;
     margin: 0;
 }
+@media * and (max-width: 780px) {
+    footer h4
+    {
 
+    }
+    #selfie {
+        
+    }   
+}
+/* simple example of how to apply a media query style to a targeted class 
 @media screen and (max-width: 780px) {
-* {
-    color: pink;
-}
-}
+    * {
+        color: pink;
+    }
+} */
