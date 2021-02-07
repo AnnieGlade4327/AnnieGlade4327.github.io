@@ -222,7 +222,7 @@ footer h4
     font-size; 30px;
     margin: 0;
 }
-@media * and (max-width: 780px) {
+/* @media * and (max-width: 780px) { 
     footer h4
     {
 
@@ -230,7 +230,7 @@ footer h4
     #selfie {
         
     }   
-}
+/* } */
 /* simple example of how to apply a media query style to a targeted class 
 @media screen and (max-width: 780px) {
     * {
