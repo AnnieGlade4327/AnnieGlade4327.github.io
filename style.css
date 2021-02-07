@@ -7,20 +7,32 @@
 
 body {
     font-family: Rockwell;
-    background-color: #6b9294;
     margin: 0;
+    background-color: antiquewhite;
 }
 /* header styling */
 
 header {
- 
+        background-color: #2d6275;
+}
+#desert-flower {
+    color: #006666;
+    padding-right: 3px; 
+    border-radius: 8px 8px 8px 8px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #006666;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin-right: 700px;
+    
 }
 header h1 {
     color: #6b9294;
-    font-size: 35px;
-    font-weight: 200;
-    margin-top: 10px;
-    margin-left: 10px;
+    text-align: right;
+    padding-right: 100px;
+    height: auto;
 }
 #About-me {
     align-content:flex-end;
@@ -32,19 +44,45 @@ header h1 {
 #Contact-info {
     float: left;
 }
+nav ul li {
+    padding-top: 11px;
+    justify-content: center;
+}
 nav ul a {
    font-size: 25px;
    color:#6f8283;
    padding-left: 200px;
-   background-color: #202000;
+   background-color:#e08912;
    padding-right: 7px;
    list-style-type: none;
    margin: 0;
    padding: 0;
+   padding-left: 10px;
    width: 11%;
    position: fixed;
    height: 100%;
    overflow: auto;
+   justify-content: space-between;
+   text-align: center;
+   justify-content: space-around;
+}
+nav video {
+    color: #006666;
+    padding-right: 3px; 
+    border-radius: 8px 8px 8px 8px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #006666;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    position: fixed;
+    justify-content: auto;
+}
+.navBar
+{
+    width: 100%;
+    background-color: #202000;
 }
 .about-me {
     width: 970px;
@@ -73,8 +111,35 @@ nav ul a {
     border-width: 8px;
     border-color: #006666;
 }
-.social-media {
+.portfolio {
     background-color: #006666;
+}
+.portfolio video {
+    padding-right: 300px;
+    justify-content: auto;
+}
+#portfolio
+{
+    font-size: 25px;
+    padding-right: 3px; 
+    border-radius: 8px 8px 8px 8px;
+    border-style: ridge;
+    border-width: 5px;
+    border-color: #006666;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 3px;
+    margin-left: 1200px;
+    margin-right: 40px;
+    background-color: #006666;
+}
+.social-media {
+    text-align: center;
+    font-size: 25px;
+    color: #202000;
+    background-color: #5b5768;
+}
+.social-media a {
     text-align: center;
     font-size: 25px;
     color: #202000;
@@ -97,7 +162,7 @@ nav ul a {
     color: #202000;
     text-align: right;
 }
-.hero {
+#say-hi {
     background-color:#6b9294;
     box-sizing: border-box;
     padding-left: 23px;
@@ -105,7 +170,7 @@ nav ul a {
     padding-bottom: 50px;
     font-weight: 300;
 }
-.hero form {
+.hero-form {
     background-image: url('IMG_4751.jpg');
     height: 383px;
     width: 457px;
@@ -115,6 +180,7 @@ nav ul a {
     border-color: #202000;
     padding-top: 45px;
     font-weight: 300;
+    margin-left: 147px;
 }
 .form-input {
     border: 5px solid #202000;
